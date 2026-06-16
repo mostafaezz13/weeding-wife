@@ -904,7 +904,7 @@ async function submitWish(){
 
   // تحويل الضيف إلى واتساب
   const phone = "201002566565";
-  const msg = `✨ أمنية زفاف جديدة!\n\nمن: ${name}\nالرسالة:\n${text}`;
+  const msg = `✨ أمنية زفاف جديدة!\n\nمن : ${name}\nالرسالة :\n${text}`;
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
 
   status.textContent='🌸 شكراً! جاري تحويلك لواتساب لإرسال الأمنية ✨';
